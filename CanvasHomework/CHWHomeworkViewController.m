@@ -7,11 +7,20 @@
 //
 
 #import "CHWHomeworkViewController.h"
+#import "CHWHomework.h"
 
 @interface CHWHomeworkViewController ()
-
 @end
 
 @implementation CHWHomeworkViewController
+
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [[CHWHomework allTehHomeworks] subscribeNext:^(NSArray *homeworks) {
+        NSLog(@"hw = %@", homeworks);
+    }];
+}
 
 @end

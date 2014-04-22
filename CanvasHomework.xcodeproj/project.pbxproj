@@ -24,6 +24,7 @@
 		49291C7C1906F5FD0082D7A7 /* CanvasHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49291C7B1906F5FD0082D7A7 /* CanvasHomeworkTests.m */; };
 		49291C871906FA3D0082D7A7 /* CKIClient+CHWHomework.m in Sources */ = {isa = PBXBuildFile; fileRef = 49291C861906FA3D0082D7A7 /* CKIClient+CHWHomework.m */; };
 		49291C8A1906FC060082D7A7 /* access.tkn in Resources */ = {isa = PBXBuildFile; fileRef = 49291C891906FC060082D7A7 /* access.tkn */; };
+		49291C8D1906FF500082D7A7 /* CHWHomework.m in Sources */ = {isa = PBXBuildFile; fileRef = 49291C8C1906FF500082D7A7 /* CHWHomework.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		49291C851906FA3D0082D7A7 /* CKIClient+CHWHomework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CKIClient+CHWHomework.h"; sourceTree = "<group>"; };
 		49291C861906FA3D0082D7A7 /* CKIClient+CHWHomework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CKIClient+CHWHomework.m"; sourceTree = "<group>"; };
 		49291C891906FC060082D7A7 /* access.tkn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = access.tkn; sourceTree = "<group>"; };
+		49291C8B1906FF500082D7A7 /* CHWHomework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWHomework.h; sourceTree = "<group>"; };
+		49291C8C1906FF500082D7A7 /* CHWHomework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWHomework.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				49291C881906FA410082D7A7 /* CanvasKit+Homework */,
 				49291C5F1906F5FD0082D7A7 /* CHWAppDelegate.h */,
 				49291C601906F5FD0082D7A7 /* CHWAppDelegate.m */,
+				49291C8B1906FF500082D7A7 /* CHWHomework.h */,
+				49291C8C1906FF500082D7A7 /* CHWHomework.m */,
 				49291C621906F5FD0082D7A7 /* Main.storyboard */,
 				49291C651906F5FD0082D7A7 /* CHWHomeworkViewController.h */,
 				49291C661906F5FD0082D7A7 /* CHWHomeworkViewController.m */,
@@ -310,6 +315,7 @@
 			files = (
 				49291C671906F5FD0082D7A7 /* CHWHomeworkViewController.m in Sources */,
 				49291C871906FA3D0082D7A7 /* CKIClient+CHWHomework.m in Sources */,
+				49291C8D1906FF500082D7A7 /* CHWHomework.m in Sources */,
 				49291C5D1906F5FD0082D7A7 /* main.m in Sources */,
 				49291C611906F5FD0082D7A7 /* CHWAppDelegate.m in Sources */,
 			);
